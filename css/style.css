@@ -1,0 +1,102 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+.removegap {
+     margin: 20px auto 10px 0;
+     font-size: medium;
+}
+
+.round {
+     border-radius: 100%;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container {
+     width: 910px;
+     margin: 0 auto 0 auto;
+}
+
+#header {
+     padding: 35px 20px 0px 0px;
+     height: 150px;
+     line-height: 0.5;
+}
+
+#main {
+     background: white;
+     width: 610px;
+     padding: 30px;
+     float: left;
+}
+
+#sidebar {
+     background: white;
+     width: 280px;
+     padding: 20px 20px 45px 20px;
+     float: right;
+     border-left: 2px solid #999999;
+     border-bottom: 2px solid #999999;
+}
+
+#footer {
+     padding: 20px;
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}  
+
+h1 {
+     font-size: 40px;
+     margin: 20px auto 0 0;
+}
+
+a {
+     color: orangered;
+     text-decoration: none;
+}
+
+p {
+     font-size: small;
+}
+
+img {
+     border: 0;
+}
+
+blockquote {
+     margin: 0 auto 0 2px;
+     border-left: 3.5px solid #CACACA;
+     padding: 0 6px 0 6px;
+     font-style: italic;
+     font-size: 15px;
+}
